@@ -15,6 +15,18 @@
 		C44AB12225DC24EC0059E00E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44AB0F725DC24EB0059E00E /* ContentView.swift */; };
 		C44AB12325DC24EC0059E00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44AB0F825DC24EC0059E00E /* Assets.xcassets */; };
 		C44AB12425DC24EC0059E00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44AB0F825DC24EC0059E00E /* Assets.xcassets */; };
+		C49E9E2C25DC2577001021F0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E2B25DC2577001021F0 /* Home.swift */; };
+		C49E9E3525DC2582001021F0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E2B25DC2577001021F0 /* Home.swift */; };
+		C49E9E3B25DC26AC001021F0 /* Blurwindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E3A25DC26AC001021F0 /* Blurwindow.swift */; };
+		C49E9E3C25DC26AC001021F0 /* Blurwindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E3A25DC26AC001021F0 /* Blurwindow.swift */; };
+		C49E9E4225DC74F3001021F0 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E4125DC74F3001021F0 /* TabButton.swift */; };
+		C49E9E4325DC74F3001021F0 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E4125DC74F3001021F0 /* TabButton.swift */; };
+		C49E9E4925DC7A19001021F0 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E4825DC7A19001021F0 /* SliderView.swift */; };
+		C49E9E4A25DC7A19001021F0 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E4825DC7A19001021F0 /* SliderView.swift */; };
+		C49E9E5025DC81D5001021F0 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E4F25DC81D5001021F0 /* PostView.swift */; };
+		C49E9E5125DC81D5001021F0 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E4F25DC81D5001021F0 /* PostView.swift */; };
+		C49E9E5725DC84B6001021F0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E5625DC84B6001021F0 /* MainView.swift */; };
+		C49E9E5825DC84B6001021F0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E9E5625DC84B6001021F0 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,12 @@
 		C44AB11825DC24EC0059E00E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44AB11C25DC24EC0059E00E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C44AB11E25DC24EC0059E00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49E9E2B25DC2577001021F0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C49E9E3A25DC26AC001021F0 /* Blurwindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blurwindow.swift; sourceTree = "<group>"; };
+		C49E9E4125DC74F3001021F0 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		C49E9E4825DC7A19001021F0 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		C49E9E4F25DC81D5001021F0 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		C49E9E5625DC84B6001021F0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,7 @@
 		C44AB0F525DC24EB0059E00E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C49E9E2A25DC2543001021F0 /* View */,
 				C44AB0F625DC24EB0059E00E /* Instagram_DesktopApp.swift */,
 				C44AB0F725DC24EB0059E00E /* ContentView.swift */,
 				C44AB0F825DC24EC0059E00E /* Assets.xcassets */,
@@ -149,6 +168,19 @@
 				C44AB11E25DC24EC0059E00E /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C49E9E2A25DC2543001021F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C49E9E2B25DC2577001021F0 /* Home.swift */,
+				C49E9E3A25DC26AC001021F0 /* Blurwindow.swift */,
+				C49E9E4125DC74F3001021F0 /* TabButton.swift */,
+				C49E9E4825DC7A19001021F0 /* SliderView.swift */,
+				C49E9E4F25DC81D5001021F0 /* PostView.swift */,
+				C49E9E5625DC84B6001021F0 /* MainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +340,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49E9E5025DC81D5001021F0 /* PostView.swift in Sources */,
+				C49E9E5725DC84B6001021F0 /* MainView.swift in Sources */,
+				C49E9E3B25DC26AC001021F0 /* Blurwindow.swift in Sources */,
 				C44AB12125DC24EC0059E00E /* ContentView.swift in Sources */,
+				C49E9E2C25DC2577001021F0 /* Home.swift in Sources */,
+				C49E9E4925DC7A19001021F0 /* SliderView.swift in Sources */,
+				C49E9E4225DC74F3001021F0 /* TabButton.swift in Sources */,
 				C44AB11F25DC24EC0059E00E /* Instagram_DesktopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +355,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49E9E5125DC81D5001021F0 /* PostView.swift in Sources */,
+				C49E9E5825DC84B6001021F0 /* MainView.swift in Sources */,
+				C49E9E3C25DC26AC001021F0 /* Blurwindow.swift in Sources */,
 				C44AB12225DC24EC0059E00E /* ContentView.swift in Sources */,
+				C49E9E3525DC2582001021F0 /* Home.swift in Sources */,
+				C49E9E4A25DC7A19001021F0 /* SliderView.swift in Sources */,
+				C49E9E4325DC74F3001021F0 /* TabButton.swift in Sources */,
 				C44AB12025DC24EC0059E00E /* Instagram_DesktopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

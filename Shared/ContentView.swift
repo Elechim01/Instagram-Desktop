@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+//    Aggiungere le immagini
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Home()
     }
 }
 
